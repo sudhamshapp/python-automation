@@ -7,9 +7,6 @@ def sudhamsh():
 def mars(y): # while calling it's argument
     y = 3
     print(y)
-    mars2(y)
-    return None
-    print(y)
     return None
 def main():
     # global x

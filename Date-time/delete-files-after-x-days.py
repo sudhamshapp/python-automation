@@ -2,7 +2,7 @@ import os
 import sys
 import datetime
 req_path = input("Enter the path: ")
-age = 3
+age = 3 # you can keep the desired days based on the requirement
 if not os.path.exists(req_path):
     print("Path exists")
     sys.exit(1)
@@ -20,4 +20,4 @@ for each_file in os.listdir(req_path):
         if difference_in_days > age: # it gonna give us the files which are older than 3 days
             os.remove(each_file_path)
             print("Deleted file: ", each_file_path)
-            print(each_file_path, difference_in_days)
+            # print(each_file_path, difference_in_days)

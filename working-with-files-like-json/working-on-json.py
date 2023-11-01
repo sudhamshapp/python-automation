@@ -1,10 +1,10 @@
 '''
 # Read content from json
 import json
-req_file = "arbitary.json"
+req_file = "arbitary.json" # we took this json data from chatgpt
 fo = open(req_file, "r")
 print(json.load(fo)) # this gonna give us a dictionary
-# print(type(fo.read())) # this gonna give us a string
+# print(type(fo.read())) # this gonna give us a string, this for reference, we should use json load to perform some activity
 fo.close()
 '''
 # write content to json
